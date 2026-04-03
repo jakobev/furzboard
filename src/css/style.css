@@ -1,0 +1,44 @@
+.app-title {
+    text-align: center;    
+}
+
+
+.farts-container {
+    display: flex;
+    background-color: purple;
+    padding: 10px;
+    justify-content: space-evenly;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border: 2px solid plum;
+    border-radius: 25px;
+}
+
+.farts-container div {
+    background-color: greenyellow;
+    color: aliceblue;
+    border: 1px, solid black;
+    padding: 10px;
+    margin: 10px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.farts-container button {
+    background-color: greenyellow;
+    color: purple;
+    border: 1px, solid black;
+    padding: 10px;
+    margin: 10px;
+    font-size: 20px;
+    text-align: center;
+    width: 80px;
+    height: 80px;
+    border-radius: 25%;
+}
+
+
+.farts-container button:hover {
+    cursor: pointer;
+    background-color: green;
+}
