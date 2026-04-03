@@ -6,7 +6,7 @@ for(let i = 1; i<=500; i++){
     var test_button = document.createElement('button')
     var audio_fart = document.createElement("audio")
     audio_fart.id = "fart" + i
-    audio_fart.src = "src/data/fart_dataset/" + i + ".wav"
+    audio_fart.src = "public/data/fart_dataset/" + i + ".wav"
     console.log(audio_fart.src)
     test_button.addEventListener("click", () => {
         /*audio_fart.play()*/
