@@ -2,7 +2,7 @@ var farts_container = document.getElementsByClassName("farts-container")
 
 let currentAudio = null
 
-for(let i = 1; i<=1999; i++){
+for(let i = 1; i<=500; i++){
     var test_button = document.createElement('button')
     var audio_fart = document.createElement("audio")
     audio_fart.id = "fart" + i
